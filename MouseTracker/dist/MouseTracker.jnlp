@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="MouseTracker.jnlp">
+  <information>
+    <title>MouseTracker</title>
+    <vendor>alper</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="MouseTracker.jar" size="3421" download="eager" />
+  </resources>
+  <jfx:javafx-desc  width="800" height="600" main-class="mousetracker.MouseTracker"  name="MouseTracker" />
+  <update check="always"/>
+</jnlp>
